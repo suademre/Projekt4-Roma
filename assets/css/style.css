@@ -1,0 +1,155 @@
+/* Font: Santio bold, Roboto, Mr Dafoe
+Farbe: #e7bc0e  / #efefef / #6bc1a3 / #cb91b6 / #7eb8e1 / #000 / #fff */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+}
+
+.yellow {
+  color: #e7bc0e;
+}
+
+.green {
+  color: #6bc1a3;
+}
+
+.pink {
+  color: #cb91b6;
+}
+
+.grey {
+  color: #efefef;
+}
+
+.blue {
+  color: #7eb8e1;
+}
+
+.white {
+  color: #fff;
+}
+
+.marking {
+  background-color: rgb(36, 36, 36);
+  color: white;
+  padding: 5px 5px 10px 5px;
+}
+
+/********************************************** HEADLINES FONT ********************************/
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Santio";
+}
+
+main p:first-of-type {
+  text-align: right;
+  margin: 0;
+  padding: 5px 0;
+}
+
+#firstSVG {
+  width: 5%;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+
+#action {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  margin-right: 100px;
+  border-bottom: 3px solid #e7bc0e;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+#mainTag {
+  background: rgba(0, 0, 0, 0.6) url("../img/cleo-topper.jpg") center/cover
+    no-repeat fixed;
+  background-blend-mode: multiply;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+#mainTag h2 {
+  font-size: 3.5rem;
+  width: 30%;
+  margin: 100px 0;
+}
+
+#scroll {
+  font-family: "Mr Dafoe", cursive;
+  font-size: 1.8rem;
+  text-decoration: none;
+  font-style: italic;
+}
+
+#firstSchreib {
+  font-size: 2rem;
+  width: 60%;
+  margin: 500px auto;
+  line-height: 50px;
+}
+
+.h1Schreibung {
+  font-size: 7rem;
+  width: 60%;
+  margin-bottom: 0;
+}
+
+.h3Schreibung {
+  font-size: 2.5rem;
+  margin-top: 0;
+}
+
+#secondSchreib {
+  font-size: 2rem;
+  width: 60%;
+  margin-left: auto;
+  margin-top: 118px;
+  line-height: 50px;
+}
+
+.algemainImg {
+  width: 10%;
+  margin-top: 200px;
+}
+
+#section1 {
+  background-color: #efefef !important;
+  background: url("../img/kid.png"), url("../img/see.png");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 140vh;
+}
+
+#section1 img {
+  width: 100%;
+}
+
+#section2 {
+  height: 170vh;
+  background-color: black;
+}
+#section2 h1 {
+  font-size: 4.5rem;
+  padding: 20% 15% 2%;
+  margin: 0;
+}
+
+#section2 a {
+  color: white;
+  border: 3px solid white;
+  background-color: black;
+  font-size: 1.6rem;
+  padding: 3px 10px;
+  margin: 10% 5%;
+}
